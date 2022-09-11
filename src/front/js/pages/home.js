@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import fotoImageUrl from "../../img/fotoperfil2.jpg";
+import fotoImage from "../../img/fotoperfil.png";
 import "../../styles/home.css";
 
 export const Home = () => {
@@ -12,7 +12,7 @@ export const Home = () => {
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<p>
-							<img className=" col-sm-2 img-fluid" src={fotoImageUrl} />
+							<img className=" col-sm-3 img-fluid" src={fotoImage} />
 						</p>
 						<h1 className="">Oriol Rosell</h1>
 						<p>About me...</p>
