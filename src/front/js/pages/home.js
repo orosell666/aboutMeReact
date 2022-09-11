@@ -1,26 +1,48 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
+import fotoImageUrl from "../../img/fotoperfil2.jpg";
 import "../../styles/home.css";
 
 export const Home = () => {
-	const { store, actions } = useContext(Context);
-
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">
-				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
+		<div>
+
+			<div className="firstColor ">
+
+				<div className="d-inline-flex ">
+					<div className="ms-5 titleBox float-start me-5 ">
+						<p>
+							<img className=" col-sm-2 img-fluid" src={fotoImageUrl} />
+						</p>
+						<h1 className="">Oriol Rosell</h1>
+						<p>About me...</p>
+					</div>
+					<div className="downArrow ms-5 align-self-center me-5 ">
+						<span aria-hidden="true">V<i class="fa-solid fa-circle-chevron-down" /></span>
+					</div>
+				</div>
 			</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-					Read documentation
-				</a>
-			</p>
+			<div className="secondColor">
+				<div className="d-flex flex-column bd-highlight mb-3">
+					<h1 className="ms-5">Oriol Rosell</h1>
+					<p className="ms-5">About me...</p>
+				</div>
+			</div>
+			<div className="thirdColor">
+				<div className="d-flex flex-column bd-highlight mb-3">
+					<h1 className="ms-5">Oriol Rosell</h1>
+					<p className="ms-5">About me...</p>
+				</div>
+			</div>
+			<div className="fourthColor">
+				<div className="d-flex flex-column bd-highlight mb-3">
+					<h1 className="ms-5">Oriol Rosell</h1>
+					<p className="ms-5">About me...</p>
+				</div>
+			</div>
+
+
 		</div>
+
 	);
 };
