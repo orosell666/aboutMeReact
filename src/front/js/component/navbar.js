@@ -10,7 +10,10 @@ export const Navbar = () => {
 				</Link>
 				<div className="ml-auto">
 					<Link to="/demo">
-						<button className="btn textInGreen">ESP</button>
+						<button className="btn textInGreen invisible">ESP</button>
+					</Link>
+					<Link to="/">
+						<button className="btn textInGreen">ENG</button>
 					</Link>
 				</div>
 			</div>

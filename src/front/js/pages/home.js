@@ -2,10 +2,26 @@ import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import fotoImage from "../../img/fotoperfil.png";
 import "../../styles/home.css";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
 	return (
 		<div>
+			<nav className="navbar" style={{ "background-color": "rgb(28, 103, 88)" }}>
+				<div className="container ">
+					<Link to="/">
+						<span className="navbar-brand mb-0 h1"></span>
+					</Link>
+					<div className="ml-auto">
+						<Link to="/demo">
+							<button className="btn textInGreen ">ESP</button>
+						</Link>
+						<Link to="/">
+							<button className="btn textInGreen invisible">ENG</button>
+						</Link>
+					</div>
+				</div>
+			</nav>
 
 			<div className="firstColor ">
 
