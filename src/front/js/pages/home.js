@@ -34,7 +34,10 @@ export const Home = () => {
 						<p>About me...</p>
 					</div>
 					<div className="downArrow ms-5 align-self-center me-5 ">
-						<span className="fa-solid fa-circle-arrow-down">V<i></i></span>
+				/*		<button onClick={scrolldown}>
+							Activate Lasers
+						</button> */
+
 					</div>
 				</div>
 			</div>
