@@ -34,14 +34,18 @@ export const Home = () => {
 						<p>About me...</p>
 					</div>
 					<div className="downArrow ms-5 align-self-center me-5 ">
-				/*		<button onClick={scrolldown}>
-							Activate Lasers
-						</button> */
+						<ul className="nav nav-pills">
+							<li className="nav-item">
+								<a className="downArrow" href="#scrollspyHeading1">^</a>
+							</li>
+							<li className="nav-item">
+								<a className="ndownArrow" href="#scrollspyHeading2"></a>
+							</li></ul>
 
 					</div>
 				</div>
 			</div>
-			<div className="secondColor">
+			<div className="secondColor" id="scrollspyHeading1">
 				<div className="d-flex flex-column bd-highlight mb-3">
 					<h1 className="ms-5">Oriol Rosell</h1>
 					<p className="ms-5">About me...</p>
