@@ -44,55 +44,59 @@ export const Home = () => {
 				</div>
 			</div>
 			<div className="secondColor" id="scrollspyHeading2">
-				<div className="d-flex flex-column bd-highlight mb-3">
-					<h1 className="ms-5">Oriol Rosell</h1>
-					<p className="ms-5">About me...</p>
-				</div>
-				<div className="downArrow ms-5 align-self-center me-5 ">
-					<ul className="nav nav-pills">
-						<li className="nav-item">
-							<a className="downArrow" href="#scrollspyHeading1">+</a>
-						</li>
-						<li className="nav-item mt-4">
-							<a className="downArrow" href="#scrollspyHeading3">-</a>
-						</li>
-					</ul>
+				<div className="d-inline-flex ">
+					<div className="ms-5 titleBox float-start me-5 ">
+						<h1 className="">Oriol Rosell</h1>
+						<p>About me...</p>
+					</div>
+					<div className="downArrow ms-5 align-self-center me-5 ">
+						<ul className="nav nav-pills">
+							<li className="nav-item">
+								<a className="downArrow" href="#scrollspyHeading1">+</a>
+							</li>
+							<li className="nav-item mt-4">
+								<a className="downArrow" href="#scrollspyHeading3">-</a>
+							</li>
+						</ul>
 
-				</div>
-			</div>
+					</div>
+				</div></div>
 			<div className="thirdColor" id="scrollspyHeading3">
-				<div className="d-flex flex-column bd-highlight mb-3">
-					<h1 className="ms-5">Oriol Rosell</h1>
-					<p className="ms-5">About me...</p>
-				</div>
-				<div className="downArrow ms-5 align-self-ce mt-4nter me-5 ">
-					<ul className="nav nav-pills">
-						<li className="nav-item">
-							<a className="downArrow" href="#scrollspyHeading2">+</a>
-						</li>
-						<li className="nav-item">
-							<a className="downArrow" href="#scrollspyHeading4">-</a>
-						</li>
-					</ul>
+				<div className="d-inline-flex ">
+					<div className="ms-5 titleBox float-start me-5 ">
+						<h1 className="">Oriol Rosell</h1>
+						<p>About me...</p>
+					</div>
+					<div className="downArrow ms-5 align-self-center me-5 ">
+						<ul className="nav nav-pills">
 
+							<li className="nav-item">
+								<a id="arrowdark" href="#scrollspyHeading2">+</a>
+							</li>
+							<li className="nav-item mt-4">
+								<a id="arrowdark" href="#scrollspyHeading4">-</a>
+							</li>
+						</ul>
+
+					</div>
+				</div></div>
+			<div className="fourthColor" id="scrollspyHeading4 ">
+				<div className="d-inline-flex ">
+					<div className="ms-5 titleBox float-start me-5 ">
+						<h1 className="">Oriol Rosell</h1>
+						<p>About me...</p>
+					</div>
+					<div className="downArrow ms-5 align-self-center me-5 " >
+						<ul className="nav nav-pills">
+							<li className="nav-item">
+								<a id="arrowdark" href="#scrollspyHeading3">+</a>
+							</li>
+						</ul>
+
+					</div>
 				</div>
+
 			</div>
-			<div className="fourthColor" id="scrollspyHeading4">
-				<div className="d-flex flex-column bd-highlight mb-3">
-					<h1 className="ms-5">Oriol Rosell</h1>
-					<p className="ms-5">About me...</p>
-				</div>
-				<div className="downArrow ms-5 align-self-center me-5 ">
-					<ul className="nav nav-pills">
-						<li className="nav-item">
-							<a className="downArrow" href="#scrollspyHeading3">+</a>
-						</li>
-					</ul>
-
-				</div>
-			</div>
-
-
 		</div>
 
 	);
