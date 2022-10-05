@@ -8,6 +8,7 @@
   background-color: rgb(61, 131, 97);
   height: 100vh;
   width: 100%;
+  color: rgb(230, 219, 163);
 }
 .thirdColor {
   background-color: rgb(214, 205, 164);
@@ -30,6 +31,9 @@
   color: #e6dba2;
   height: 20px;
   width: 20px;
+}
+.upArrow {
+  color: rgb(28, 103, 88);
 }
 .textInGreen {
   color: #e6dba2;
