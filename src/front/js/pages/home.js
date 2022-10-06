@@ -34,10 +34,10 @@ export const Home = () => {
 						<h1 className="">Oriol Rosell</h1>
 						<p>About me...</p>
 					</div>
-					<div className="downArrow ms-5 align-self-end me-5 ">
+					<div className="downArrow ms-5 align-self-center me-5 ">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<a className="downArrow fas fa-angle-down" href="#scrollspyHeading2"></a>
+								<span class="bi bi-chevron-down" href="#scrollspyHeading2"></span>
 							</li>
 						</ul>
 
@@ -53,10 +53,10 @@ export const Home = () => {
 					<div className="downArrow ms-5 align-self-end me-5 ">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<a className="downArrow fas fa-angle-up" href="#scrollspyHeading1"></a>
+								<span class="bi bi-chevron-up" href="#scrollspyHeading1"></span>
 							</li>
 							<li className="nav-item mt-4">
-								<a className="downArrow fas fa-angle-down" href="#scrollspyHeading3"></a>
+								<span class="bi bi-chevron-down" href="#scrollspyHeading3"></span>
 							</li>
 						</ul>
 
@@ -92,10 +92,10 @@ export const Home = () => {
 					<div className="downArrow ms-5 align-self-center me-5 col-1 ">
 						<ul className="nav nav-pills">
 							<li className="row nav-item">
-								<a className="arrowdark fas fa-angle-up" href="#scrollspyHeading2"></a>
+								<span class="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></span>
 							</li>
 							<li className="row nav-item mt-4">
-								<a className="arrowdark fas fa-angle-down" href="#scrollspyHeading4"></a>
+								<span class="arrowdark bi bi-chevron-down" href="#scrollspyHeading4"></span>
 							</li>
 						</ul>
 
@@ -110,7 +110,7 @@ export const Home = () => {
 					<div className="arrowdark ms-5 align-self-end me-5 col-1">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<a className="arrowdark fas fa-angle-up" href="#scrollspyHeading3"></a>
+								<span class="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></span>
 							</li>
 
 						</ul>
