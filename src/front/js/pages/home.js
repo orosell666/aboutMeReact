@@ -11,7 +11,7 @@ export const Home = () => {
 			<nav className="navbar" style={{ "background-color": "rgb(28, 103, 88)" }}>
 				<div className="container ">
 					<Link to="/">
-						<span className="navbar-brand mb-0 h1"></span>
+						<a className="navbar-brand mb-0 h1"></a>
 					</Link>
 					<div className="ml-auto">
 						<Link to="/demo">
@@ -37,7 +37,7 @@ export const Home = () => {
 					<div className="downArrow ms-5 align-self-center me-5 ">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<span class="bi bi-chevron-down" href="#scrollspyHeading2"></span>
+								<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading2"></a>
 							</li>
 						</ul>
 
@@ -53,10 +53,10 @@ export const Home = () => {
 					<div className="downArrow ms-5 align-self-end me-5 ">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<span class="bi bi-chevron-up" href="#scrollspyHeading1"></span>
+								<a className="downArrow bi bi-chevron-up" href="#scrollspyHeading1"></a>
 							</li>
 							<li className="nav-item mt-4">
-								<span class="bi bi-chevron-down" href="#scrollspyHeading3"></span>
+								<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading3"></a>
 							</li>
 						</ul>
 
@@ -92,10 +92,10 @@ export const Home = () => {
 					<div className="downArrow ms-5 align-self-center me-5 col-1 ">
 						<ul className="nav nav-pills">
 							<li className="row nav-item">
-								<span class="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></span>
+								<a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></a>
 							</li>
 							<li className="row nav-item mt-4">
-								<span class="arrowdark bi bi-chevron-down" href="#scrollspyHeading4"></span>
+								<a class="arrowdark bi bi-chevron-down" href="#scrollspyHeading4"></a>
 							</li>
 						</ul>
 
@@ -110,7 +110,10 @@ export const Home = () => {
 					<div className="arrowdark ms-5 align-self-end me-5 col-1">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<span class="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></span>
+								<a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></a>
+							</li>
+							<li className="nav-item">
+								<a class="arrowdark bi bi-chevron-double-up" href="#scrollspyHeading2"></a>
 							</li>
 
 						</ul>
