@@ -89,14 +89,13 @@ export const Home = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="upArrow ms-5 align-self-center me-5 ">
+					<div className="downArrow ms-5 align-self-center me-5 ">
 						<ul className="nav nav-pills">
-
 							<li className="nav-item">
-								<a id="arrowdark fas fa-angle-up" href="#scrollspyHeading2"></a>
+								<a className="arrowdark fas fa-angle-up" href="#scrollspyHeading1"></a>
 							</li>
 							<li className="nav-item mt-4">
-								<a id="arrowdark fas fa-angle-down" href="#scrollspyHeading4"></a>
+								<a className="arrowdark fas fa-angle-down" href="#scrollspyHeading3"></a>
 							</li>
 						</ul>
 
@@ -108,11 +107,12 @@ export const Home = () => {
 						<h1 className="">things I like</h1>
 						<p className="mt-4">A"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
-					<div className="upArrow ms-5 align-self-center me-5 " >
+					<div className="arrowdark ms-5 align-self-center me-5 ">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
-								<a id="arrowdark fas fa-angle-up" href="#scrollspyHeading3"></a>
+								<a className="arrowdark fas fa-angle-up" href="#scrollspyHeading1"></a>
 							</li>
+
 						</ul>
 
 					</div>
