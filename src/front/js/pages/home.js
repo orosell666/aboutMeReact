@@ -8,22 +8,6 @@ import { Link } from "react-router-dom";
 export const Home = () => {
 	return (
 		<div>
-			<nav className="navbar" style={{ "background-color": "rgb(28, 103, 88)" }}>
-				<div className="container ">
-					<Link to="/">
-						<a className="navbar-brand mb-0 h1"></a>
-					</Link>
-					<div className="ml-auto">
-						<Link to="/demo">
-							<button className="btn textInGreen ">ESP</button>
-						</Link>
-						<Link to="/">
-							<button className="btn textInGreen invisible">ENG</button>
-						</Link>
-					</div>
-				</div>
-			</nav>
-
 			<div className="firstColor " id="scrollspyHeading1">
 
 				<div className="d-inline-flex ">
