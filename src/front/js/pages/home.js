@@ -18,7 +18,7 @@ export const Home = () => {
 						<h1 className="">Oriol Rosell</h1>
 						<p>About me...</p>
 					</div>
-					<div className="downArrow ms-5 align-self-center me-5 ">
+					<div className="downArrow  position-absolute top-50 end-0  me-5 ">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
 								<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading2"></a>
@@ -34,7 +34,7 @@ export const Home = () => {
 						<h1 className="">endtroduction</h1>
 						<p className="mt-4">A"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
-					<div className="downArrow ms-5 align-self-end me-5 ">
+					<div className="downArrow ms-5 align-self-end   me-5">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
 								<a className="downArrow bi bi-chevron-up" href="#scrollspyHeading1"></a>
@@ -75,10 +75,10 @@ export const Home = () => {
 					</div>
 					<div className="downArrow ms-5 align-self-center me-5 col-1 ">
 						<ul className="nav nav-pills">
-							<li className="row nav-item">
+							<li className=" nav-item">
 								<a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></a>
 							</li>
-							<li className="row nav-item mt-4">
+							<li className="nav-item mt-4">
 								<a class="arrowdark bi bi-chevron-down" href="#scrollspyHeading4"></a>
 							</li>
 						</ul>
@@ -96,7 +96,7 @@ export const Home = () => {
 							<li className="nav-item">
 								<a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></a>
 							</li>
-							<li className="nav-item">
+							<li className="nav-item mt-4">
 								<a class="arrowdark bi bi-chevron-double-up" href="#scrollspyHeading2"></a>
 							</li>
 
