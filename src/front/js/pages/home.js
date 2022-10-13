@@ -18,7 +18,7 @@ export const Home = () => {
 							<img className=" col-sm-3 img-fluid" src={fotoImage} />
 						</p>
 						<h1 className="">Oriol Rosell</h1>
-						<p>About me...</p>
+						<p> Wellcome to my Garage</p>
 					</div>
 
 

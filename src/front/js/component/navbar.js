@@ -13,7 +13,7 @@ export const Navbar = () => {
 						<button className="btn textInGreen ">ESP</button>
 					</Link>
 					<Link to="/">
-						<button className="btn textInGreen invisible">ENG</button>
+						<button className="btn textInGreen ">ENG</button>
 					</Link>
 				</div>
 			</div>
