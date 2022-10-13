@@ -13,7 +13,7 @@ export const Home = () => {
 				<Navbar />
 				<div className="d-inline-flex">
 
-					<div className="ms-5 titleBox float-start me-5 ">
+					<div className="ms-5 titleBox float-none me-5 ">
 						<p>
 							<img className=" col-sm-3 img-fluid" src={fotoImage} />
 						</p>
@@ -51,11 +51,11 @@ export const Home = () => {
 					</ul>
 				</div>
 			</div>
-			<div className="thirdColor d-inline-flex" id="scrollspyHeading3">
+			<div className="thirdColor d-inline-flex col-12" id="scrollspyHeading3">
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<h1 className="">What I've been doing...</h1>
-						<ul className="mt-4">
+						<ul className="mt-4 ">
 							<li>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 							</li>
@@ -109,6 +109,7 @@ export const Home = () => {
 
 					</div>
 				</div>
+
 
 			</div>
 		</div>
