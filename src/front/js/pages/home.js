@@ -8,8 +8,7 @@ import { Link } from "react-router-dom";
 export const Home = () => {
 	return (
 		<div>
-			<div className="firstColor " id="scrollspyHeading1">
-
+			<div className="firstColor d-inline-flex" id="scrollspyHeading1">
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<p>
@@ -18,35 +17,37 @@ export const Home = () => {
 						<h1 className="">Oriol Rosell</h1>
 						<p>About me...</p>
 					</div>
-					<div className="downArrow  position-absolute top-50 end-0  me-5 ">
-						<ul className="nav nav-pills">
-							<li className="nav-item">
-								<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading2"></a>
-							</li>
-						</ul>
 
-					</div>
+				</div>
+				<div className="downArrow  position-relative top-50 end-0 me-5 col-1">
+					<ul className="nav nav-pills">
+						<li className="nav-item">
+							<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading2"></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-			<div className="secondColor" id="scrollspyHeading2">
-				<div className="d-inline-flex ">
+			<div className="secondColor d-inline-flex" id="scrollspyHeading2">
+
+				<div className="d-inline-flex">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<h1 className="">endtroduction</h1>
 						<p className="mt-4">A"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
-					<div className="downArrow ms-5 align-self-end   me-5">
-						<ul className="nav nav-pills">
-							<li className="nav-item">
-								<a className="downArrow bi bi-chevron-up" href="#scrollspyHeading1"></a>
-							</li>
-							<li className="nav-item mt-4">
-								<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading3"></a>
-							</li>
-						</ul>
 
-					</div>
-				</div></div>
-			<div className="thirdColor" id="scrollspyHeading3">
+				</div>
+				<div className="downArrow  position-relative top-50 end-0 me-5  ">
+					<ul className="nav nav-pills">
+						<li className="nav-item">
+							<a className="downArrow bi bi-chevron-up" href="#scrollspyHeading1"></a>
+						</li>
+						<li className="nav-item mt-4">
+							<a class="downArrow bi bi-chevron-down" href="#scrollspyHeading3"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div className="thirdColor d-inline-flex" id="scrollspyHeading3">
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<h1 className="">What I've been doing...</h1>
@@ -73,7 +74,7 @@ export const Home = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="downArrow ms-5 align-self-center me-5 col-1 ">
+					<div className="downArrow position-relative top-50 end-0 me-5 col-1 ">
 						<ul className="nav nav-pills">
 							<li className=" nav-item">
 								<a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></a>
@@ -85,13 +86,13 @@ export const Home = () => {
 
 					</div>
 				</div></div>
-			<div className="fourthColor" id="scrollspyHeading4">
+			<div className="fourthColor d-inline-flex" id="scrollspyHeading4">
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<h1 className="">things I like</h1>
 						<p className="mt-4">A"Lorem ipsum dolor sit emet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
-					<div className="arrowdark ms-5 align-self-end me-5 col-1">
+					<div className="arrowdark position-relative top-50 end-0 me-5 col-1">
 						<ul className="nav nav-pills">
 							<li className="nav-item">
 								<a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></a>
