@@ -1,5 +1,5 @@
 import React from "react";
-import fotoImage from "../../img/ORIOLGARAGE.png";
+import fotoImage from "../../img/garagesign.png";
 import "../../styles/home.css";
 import { Navbar } from "../component/navbar";
 
