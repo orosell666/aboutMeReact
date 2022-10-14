@@ -1,5 +1,5 @@
 import React from "react";
-import fotoImage from "../../img/garage1.png";
+import fotoImage from "../../img/ORIOLGARAGE.png";
 import "../../styles/home.css";
 import { Navbar } from "../component/navbar";
 
@@ -9,12 +9,11 @@ export const FirstColor = () => {
             <Navbar />
             <div className="d-inline-flex">
 
-                <div className="ms-5 titleBox float-none me-5 ">
+                <div className="jsutify-content-center ">
                     <p>
                         <img className=" col-sm-3 img-fluid garage" src={fotoImage} />
                     </p>
-                    <h1 className="">Oriol Rosell</h1>
-                    <p> Wellcome to my Garage</p>
+
                 </div>
 
 
