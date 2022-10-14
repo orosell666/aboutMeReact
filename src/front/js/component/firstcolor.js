@@ -1,8 +1,6 @@
 import React from "react";
-import fotoImage from "../../img/fotoperfil.png";
-import arrowImage from "../../img/downarrow.png"
+import fotoImage from "../../img/garage1.png";
 import "../../styles/home.css";
-import { Link } from "react-router-dom";
 import { Navbar } from "../component/navbar";
 
 export const FirstColor = () => {
@@ -13,7 +11,7 @@ export const FirstColor = () => {
 
                 <div className="ms-5 titleBox float-none me-5 ">
                     <p>
-                        <img className=" col-sm-3 img-fluid" src={fotoImage} />
+                        <img className=" col-sm-3 img-fluid garage" src={fotoImage} />
                     </p>
                     <h1 className="">Oriol Rosell</h1>
                     <p> Wellcome to my Garage</p>
