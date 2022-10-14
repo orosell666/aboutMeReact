@@ -11,7 +11,7 @@ export const FirstColor = () => {
 
                 <div className="jsutify-content-center ">
                     <p>
-                        <img className=" col-sm-3 img-fluid garage" src={fotoImage} />
+                        <img className=" col-sm-10 img-fluid garage" src={fotoImage} />
                     </p>
 
                 </div>
