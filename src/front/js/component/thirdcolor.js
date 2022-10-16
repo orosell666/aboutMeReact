@@ -8,8 +8,8 @@ import { Navbar } from "../component/navbar";
 export const ThirdColor = () => {
     return (
         <div className="thirdColor d-inline-flex col-12" id="scrollspyHeading3">
-            <div className="d-inline-flex ">
-                <div className="ms-5 titleBox float-start me-5 ">
+            <div className="container-md d-inline-flex ">
+                <div className="ms-5  titleBox float-start  ">
                     <h1 className="">What I've been doing...</h1>
                     <ul className="mt-4 ">
                         <li>
