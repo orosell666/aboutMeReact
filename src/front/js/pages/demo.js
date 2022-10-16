@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import fotoImage from "../../img/fotoperfil.png";
+import fotoImage from "../../img/garagedef.png";
 import arrowImage from "../../img/downarrow.png"
 import "../../styles/home.css";
 import { Link } from "react-router-dom";
@@ -18,12 +18,11 @@ export const Demo = () => {
 				<Navbar />
 				<div className="d-inline-flex">
 
-					<div className="ms-5 titleBox float-none me-5 ">
+					<div className="jsutify-content-center ">
 						<p>
-							<img className=" col-sm-3 img-fluid" src={fotoImage} />
+							<img className=" col-sm-10 img-fluid garage" src={fotoImage} />
 						</p>
-						<h1 className="">Oriol Rosell</h1>
-						<p> Bienvenidos a mi garage</p>
+
 					</div>
 
 
@@ -40,7 +39,7 @@ export const Demo = () => {
 
 				<div className="d-inline-flex">
 					<div className="ms-5 titleBox float-start me-5 ">
-						<h1 className="">introducción</h1>
+						<h1 className="p-5">introducción</h1>
 						<p className="mt-4">A"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
 
@@ -59,7 +58,7 @@ export const Demo = () => {
 			<div className="thirdColor d-inline-flex col-12" id="scrollspyHeading3">
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
-						<h1 className="">Que he estado haciendo...</h1>
+						<h1 className="p-5">Que he estado haciendo...</h1>
 						<ul className="mt-4 ">
 							<li>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -98,7 +97,7 @@ export const Demo = () => {
 			<div className="fourthColor d-inline-flex" id="scrollspyHeading4">
 				<div className="d-inline-flex ">
 					<div className="ms-5 titleBox float-start me-5 ">
-						<h1 className="">Y también...</h1>
+						<h1 className="p-5">Y también...</h1>
 						<p className="mt-4">A"Lorem ipsum dolor sit emet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
 					<div className="arrowdark position-relative top-50 end-0 me-5 col-1">

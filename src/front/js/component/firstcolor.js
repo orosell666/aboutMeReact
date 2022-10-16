@@ -1,5 +1,5 @@
 import React from "react";
-import fotoImage from "../../img/garagesign.png";
+import fotoImage from "../../img/garagedef.png";
 import "../../styles/home.css";
 import { Navbar } from "../component/navbar";
 
