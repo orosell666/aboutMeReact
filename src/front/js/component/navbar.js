@@ -6,7 +6,7 @@ export const Navbar = () => {
 		<nav className="navbar" style={{ "background-color": "rgb(28, 103, 88)" }}>
 			<div className="container ">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1"></span>
+					<span className="fa-linked-in"></span>
 				</Link>
 				<div className="ml-auto">
 					<Link to="/demo">

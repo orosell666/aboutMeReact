@@ -40,7 +40,8 @@ export const Demo = () => {
 				<div className="d-inline-flex">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<h1 className="p-5">introducción</h1>
-						<p className="mt-4">A"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+						<p className="mt-4">¡Bienvenido! Si estás aquí es porque quieres saber un poco más de mi, así que pasa y mira todo lo que tengo guardado por aquí. Vas a encontrar casí un resumen de mi vida ya que me he involucrado y disfrutado al 100% en cada uno de ellos. </p>
+						<p></p>
 					</div>
 
 				</div>
