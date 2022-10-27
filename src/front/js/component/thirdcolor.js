@@ -37,10 +37,10 @@ export const ThirdColor = () => {
                 <div className="downArrow position-relative top-50 end-0 me-5 col-1 ">
                     <ul className="nav nav-pills">
                         <li className=" nav-item">
-                            <a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></a>
+                            <a className="arrowdark bi bi-chevron-up" href="#scrollspyHeading2"></a>
                         </li>
                         <li className="nav-item mt-4">
-                            <a class="arrowdark bi bi-chevron-down" href="#scrollspyHeading4"></a>
+                            <a className="arrowdark bi bi-chevron-down" href="#scrollspyHeading4"></a>
                         </li>
                     </ul>
 

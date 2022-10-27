@@ -20,7 +20,7 @@ export const FirstColor = () => {
                 <div className="downArrow  position-absolute top-50 end-0 me-5 col-1">
                     <ul className="nav nav-pills">
                         <li className="nav-item">
-                            <a class="downArrow bi bi-chevron-down" href="#scrollspyHeading2"></a>
+                            <a className="downArrow bi bi-chevron-down" href="#scrollspyHeading2"></a>
                         </li>
                     </ul>
                 </div>

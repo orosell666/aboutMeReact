@@ -1,9 +1,7 @@
 import React from "react";
-import fotoImage from "../../img/fotoperfil.png";
-import arrowImage from "../../img/downarrow.png"
+
 import "../../styles/home.css";
-import { Link } from "react-router-dom";
-import { Navbar } from "../component/navbar";
+
 
 export const SecondColor = () => {
     return (
@@ -22,7 +20,7 @@ export const SecondColor = () => {
                         <a className="downArrow bi bi-chevron-up" href="#scrollspyHeading1"></a>
                     </li>
                     <li className="nav-item mt-4">
-                        <a class="downArrow bi bi-chevron-down" href="#scrollspyHeading3"></a>
+                        <a className="downArrow bi bi-chevron-down" href="#scrollspyHeading3"></a>
                     </li>
                 </ul>
             </div>

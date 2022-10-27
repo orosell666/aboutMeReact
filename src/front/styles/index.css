@@ -37,6 +37,9 @@
 .textInGreen {
   color: rgb(238, 242, 243);
 }
+.greenText {
+  color: rgb(28, 103, 88);
+}
 .avatar {
   width: 270x;
   height: 270px;

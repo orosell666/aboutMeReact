@@ -16,10 +16,10 @@ export const FourthColor = () => {
                 <div className="arrowdark position-relative top-50 end-0 me-5 col-1">
                     <ul className="nav nav-pills">
                         <li className="nav-item">
-                            <a class="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></a>
+                            <a className="arrowdark bi bi-chevron-up" href="#scrollspyHeading3"></a>
                         </li>
                         <li className="nav-item mt-4">
-                            <a class="arrowdark bi bi-chevron-double-up" href="#scrollspyHeading2"></a>
+                            <a className="arrowdark bi bi-chevron-double-up" href="#scrollspyHeading2"></a>
                         </li>
 
                     </ul>
