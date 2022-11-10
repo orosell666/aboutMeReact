@@ -6,10 +6,13 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export const SimpleMap = () => {
     const defaultProps = {
         center: {
-            lat: 10.99835602,
-            lng: 77.01502627
+            lat: 49.734267,
+            lng: 6.135385
+
+
+
         },
-        zoom: 11
+        zoom: 4
     };
 
     return (
@@ -22,9 +25,9 @@ export const SimpleMap = () => {
                 defaultZoom={defaultProps.zoom}
             >
                 <AnyReactComponent
-                    lat={59.955413}
-                    lng={30.337844}
-                    text="My Marker"
+                    lat={47.179988}
+                    lng={11.794677}
+                    text="Mayrhofen"
                 />
             </GoogleMapReact>
         </div >

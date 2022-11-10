@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
-import { SimpleMap } from "../component/map";
+
 
 
 export const SecondColor = () => {
@@ -26,9 +26,7 @@ export const SecondColor = () => {
                     </ul>
                 </div>
             </div>
-            <div className="container-fluid justify-content-center mb-5">
-                < SimpleMap />
-            </div>
+
         </div>
     )
 }
