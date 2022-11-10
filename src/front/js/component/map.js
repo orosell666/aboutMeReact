@@ -14,7 +14,8 @@ export const SimpleMap = () => {
 
     return (
         // Important! Always set the container height explicitly
-        <div style={{ height: '300px', width: '300px' }}>
+        <div className="img-fluid  container-fluid justify-content-center mb-5" style={{ height: '400px', width: '100vh' }
+        }>
             <GoogleMapReact
                 bootstrapURLKeys={{ key: "" }}
                 defaultCenter={defaultProps.center}
@@ -26,6 +27,6 @@ export const SimpleMap = () => {
                     text="My Marker"
                 />
             </GoogleMapReact>
-        </div>
+        </div >
     );
 }
