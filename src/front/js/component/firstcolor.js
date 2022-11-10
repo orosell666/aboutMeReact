@@ -2,11 +2,27 @@ import React from "react";
 import fotoImage from "../../img/garagedef.png";
 import "../../styles/home.css";
 import { Navbar } from "../component/navbar";
+import { Link } from "react-router-dom";
 
 export const FirstColor = () => {
     return (
         <div className="firstColor " id="scrollspyHeading1">
-            <Navbar />
+            <nav className="navbar" style={{ "backgroundColor": "rgb(28, 103, 88)" }}>
+                <div className="container ">
+                    <Link to="/">
+                        <span className="fa-linked-in"></span>
+                    </Link>
+                    <div>
+                        <div className="ml-auto">
+                            <Link to="/demo">
+                                <button type="button" className="btn active  textInGreen" >ESP</button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
             <div className="d-inline-flex">
 
                 <div className="jsutify-content-center ">
