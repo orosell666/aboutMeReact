@@ -40,7 +40,7 @@ export const Demo = () => {
 				<div className="d-inline-flex">
 					<div className="ms-5 titleBox float-start me-5 ">
 						<h1 className="p-5">introducción</h1>
-						<p className="mt-4">¡Bienvenido! Si estás aquí es porque quieres saber un poco más de mi, así que pasa y mira todo lo que tengo guardado por aquí. Vas a encontrar casí un resumen de mi vida ya que me he involucrado y disfrutado al 100% en cada uno de ellos. </p>
+						<p className="mt-4">¡Bienvenido! Si estás aquí es porque quieres saber un poco más de mi, así que pasa y mira todo lo que tengo guardado por aquí. Vas a encontrar casí un resumen de mi vida ya que me he involucrado y disfrutado al 100% cada uno de los proyectos en los que he estado involucrado. </p>
 						<p></p>
 					</div>
 
@@ -62,15 +62,15 @@ export const Demo = () => {
 						<h1 className="p-5">Que he estado haciendo...</h1>
 						<ul className="mt-4 ">
 							<li>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p>Fundador, gestor, director y todo lo que hizo falta para que <strong>ASP snowparks</strong> desarrollara su actividad. Negociación con clientes finales, contratación de personal, dirección técnica, diseño de intalaciones...</p>
 							</li>
 							<li>
-								<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+								<p>Project Management para <strong>QParks</strong>. Dirección de las instalaciones, sus equipos y recursos
 
 								</p>
 							</li>
 							<li>
-								<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi</p>
+								<p>Embajador de <strong>Nike Snowboarding Iberia</strong>. Asesor</p>
 							</li>
 							<li>
 								<p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies</p>
