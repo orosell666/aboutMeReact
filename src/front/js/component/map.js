@@ -26,6 +26,12 @@ export const SimpleMap = () => {
                     text="Mayrhofen"
 
                 />
+                <Marker
+                    lat={42.727060}
+                    lng={0.951796}
+                    text="Mayrhofen"
+
+                />
             </GoogleMapReact>
         </div >
     );

@@ -73,7 +73,7 @@ button {
   height: 0;
   padding-bottom: 100%;
   border-radius: 50%;
-  border: 10px solid #e14d4d;
+  border: 10px solid #cfdcec;
   overflow: hidden;
 
   background: #4679bd;
@@ -93,7 +93,7 @@ button {
   margin-top: -0.5em;
 
   text-align: center;
-  color: #ed4b4b;
+  color: #f3e2e2;
   font-family: Verdana;
   font-size: 1.9em;
   font-weight: bold;
